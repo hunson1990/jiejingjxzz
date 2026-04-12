@@ -751,6 +751,80 @@
             font-size: 0.85rem;
         }
 
+        /* 视频弹窗 */
+        .video-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-modal.active {
+            display: flex;
+        }
+
+        .video-modal-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.9);
+            cursor: pointer;
+        }
+
+        .video-modal-content {
+            position: relative;
+            width: 90%;
+            max-width: 900px;
+            z-index: 2001;
+            animation: aniFadeIn 0.3s ease;
+        }
+
+        .video-modal-content iframe {
+            width: 100%;
+            height: 500px;
+            border-radius: 8px;
+        }
+
+        .video-modal-close {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes aniFadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .video-modal-content iframe {
+                height: 250px;
+            }
+        }
+
         /* 动画 */
         @keyframes fadeInUp {
             from {
@@ -1073,9 +1147,11 @@
                 <p>各类精密零部件加工，满足您的定制需求</p>
             </div>
             <div class="equipment-grid">
-                <div class="equipment-item">
-                    <iframe width="100%" height="180" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>产品标题 1</p>
+<div class="equipment-item video-trigger" data-video="https://www.youtube.com/embed/1NtfM8q1e8E?si=Y20MQg7AHRqRijCz" style="padding:0;cursor:pointer;">
+                    <div style="width:100%;height:180px;background:linear-gradient(135deg, #333 0%, #111 100%);display:flex;align-items:center;justify-content:center;border-radius:8px 8px 0 0;">
+                        <span style="font-size:3rem;">▶️</span>
+                    </div>
+                    <p style="padding:0.75rem;">产品标题 1</p>
                 </div>
                 <div class="equipment-item">
                     <iframe width="100%" height="180" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -1277,6 +1353,37 @@
                 }
             });
         });
+
+        // 视频弹窗
+        const videoModal = document.createElement('div');
+        videoModal.className = 'video-modal';
+        videoModal.innerHTML = `
+            <div class="video-modal-overlay"></div>
+            <div class="video-modal-content">
+                <button class="video-modal-close">&times;</button>
+                <iframe id="video-iframe" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        `;
+        document.body.appendChild(videoModal);
+
+        document.querySelectorAll('.video-trigger').forEach(item => {
+            item.addEventListener('click', function() {
+                const videoUrl = this.dataset.video;
+                const iframe = document.getElementById('video-iframe');
+                iframe.src = videoUrl;
+                videoModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        videoModal.querySelector('.video-modal-overlay').addEventListener('click', closeVideoModal);
+        videoModal.querySelector('.video-modal-close').addEventListener('click', closeVideoModal);
+
+        function closeVideoModal() {
+            videoModal.classList.remove('active');
+            document.getElementById('video-iframe').src = '';
+            document.body.style.overflow = '';
+        }
 
         // 表单提交
         document.querySelector('form').addEventListener('submit', function(e) {
