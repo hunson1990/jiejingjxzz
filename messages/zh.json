@@ -23,15 +23,14 @@
     "title": "产品展示",
     "subtitle": "各类精密零部件加工，满足您的定制需求",
     "items": [
-      { "name": "产品标题 1", "image": "/product1.jpg", "videoUrl": "" },
+      { "name": "CNC铝合金底座", "image": "/bilibili/product1.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV15mQgBQEdk&page=1&high_quality=1" },
       { "name": "产品标题 2", "image": "/product2.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1XEQvBmEcq&page=1&high_quality=1" },
-      { "name": "304不锈钢精铣", "image": "/product3.jpg", "videoUrl": "" },
-      { "name": "装配工装", "image": "/product4.jpg", "videoUrl": "" },
-      { "name": "整形加工", "image": "/product5.jpg", "videoUrl": "" },
-      { "name": "304不锈钢轴", "image": "/product6.jpg", "videoUrl": "" },
-      { "name": "硬质零件", "image": "/product7.jpg", "videoUrl": "" },
-      { "name": "线圈加工", "image": "/product8.jpg", "videoUrl": "" },
-      { "name": "气动装置", "image": "/product9.jpg", "videoUrl": "" }
+      { "name": "工装治具", "image": "/bilibili/product3.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1ECQgBsEAW&page=1&high_quality=1" },
+      { "name": "304不锈钢精铣", "image": "/bilibili/product4.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1QEQvBmESY&page=1&high_quality=1" },
+      { "name": "硬质氧化零件", "image": "/bilibili/product5.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1a7QvBJERb&page=1&high_quality=1" },
+      { "name": "精密五金线圈", "image": "/bilibili/product6.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1RDQgBSEEV&page=1&high_quality=1" },
+      { "name": "铝合金底座排", "image": "/bilibili/product7.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1j2QgBpE49&page=1&high_quality=1" },
+      { "name": "气动元件装置", "image": "/bilibili/product8.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1BCQgBsEb9&page=1&high_quality=1" }
     ]
   },
   "capabilities": {
