@@ -22,14 +22,17 @@
   "equipment": {
     "title": "Product Showcase",
     "subtitle": "Various precision parts processing to meet your customization needs",
-    "product1": "Product Title 1",
-    "product2": "Product Title 2",
-    "product3": "304 Stainless Steel Precision Milling",
-    "product4": "Assembly Fixture",
-    "product5": "Forming Processing",
-    "product6": "304 Stainless Steel Shaft",
-    "product7": "Hard Parts",
-    "product8": "Coil Processing"
+    "items": [
+      { "name": "Product Title 1", "image": "/product1.jpg", "videoUrl": "https://www.youtube.com/embed/sOBuSHSk4OU" },
+      { "name": "Product Title 2", "image": "/product2.jpg", "videoUrl": "https://www.youtube.com/embed/pJv331yThYA" },
+      { "name": "304 Stainless Steel Precision Milling", "image": "/product3.jpg", "videoUrl": "https://www.youtube.com/embed/--EtCBXpOk8" },
+      { "name": "Assembly Fixture", "image": "/product4.jpg", "videoUrl": "https://www.youtube.com/embed/-RoSg10snls" },
+      { "name": "Forming Processing", "image": "/product5.jpg", "videoUrl": "https://www.youtube.com/embed/Mr2mipApqms" },
+      { "name": "304 Stainless Steel Shaft", "image": "/product6.jpg", "videoUrl": "https://www.youtube.com/embed/c9N-0HltJ5Y" },
+      { "name": "Hard Parts", "image": "/product7.jpg", "videoUrl": "https://www.youtube.com/embed/fYDNu4CieWk" },
+      { "name": "Coil Processing", "image": "/product8.jpg", "videoUrl": "https://www.youtube.com/embed/z1ch94O8c-g" },
+      { "name": "Pneumatic Device", "image": "/product9.jpg", "videoUrl": "https://www.youtube.com/embed/OQoGRGC5NS4" }
+    ]
   },
   "capabilities": {
     "title": "Core Machining Capabilities",

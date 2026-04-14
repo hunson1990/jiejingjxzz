@@ -22,14 +22,17 @@
   "equipment": {
     "title": "产品展示",
     "subtitle": "各类精密零部件加工，满足您的定制需求",
-    "product1": "产品标题 1",
-    "product2": "产品标题 2",
-    "product3": "304不锈钢精铣",
-    "product4": "装配工装",
-    "product5": "整形加工",
-    "product6": "304不锈钢轴",
-    "product7": "硬质零件",
-    "product8": "线圈加工"
+    "items": [
+      { "name": "产品标题 1", "image": "/product1.jpg", "videoUrl": "" },
+      { "name": "产品标题 2", "image": "/product2.jpg", "videoUrl": "https://player.bilibili.com/player.html?bvid=BV1XEQvBmEcq&page=1&high_quality=1" },
+      { "name": "304不锈钢精铣", "image": "/product3.jpg", "videoUrl": "" },
+      { "name": "装配工装", "image": "/product4.jpg", "videoUrl": "" },
+      { "name": "整形加工", "image": "/product5.jpg", "videoUrl": "" },
+      { "name": "304不锈钢轴", "image": "/product6.jpg", "videoUrl": "" },
+      { "name": "硬质零件", "image": "/product7.jpg", "videoUrl": "" },
+      { "name": "线圈加工", "image": "/product8.jpg", "videoUrl": "" },
+      { "name": "气动装置", "image": "/product9.jpg", "videoUrl": "" }
+    ]
   },
   "capabilities": {
     "title": "核心加工能力",
