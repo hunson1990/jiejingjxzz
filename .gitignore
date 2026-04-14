@@ -24,6 +24,9 @@
 # backup
 /backup
 
+# youtube source assets
+/youtube
+
 # misc
 .DS_Store
 *.pem
