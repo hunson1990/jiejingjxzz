@@ -1,0 +1,178 @@
+{
+  "nav": {
+    "home": "Home",
+    "capabilities": "Capabilities",
+    "services": "Services",
+    "equipment": "Products",
+    "contact": "Contact",
+    "phone": "Contact Now"
+  },
+  "hero": {
+    "badge": "20 Years of Precision Machining Experience",
+    "title1": "Precision Machinery",
+    "title2": "One-Stop Custom Service",
+    "subtitle": "We undertake all kinds of precision parts processing, from prototype to mass production, with accuracy up to ±0.005mm.\nCustom processing based on drawings and samples, supporting aluminum, stainless steel, copper, titanium alloys and more.",
+    "feature1": "Free Quote",
+    "feature2": "Prototype in 3 Days",
+    "feature3": "Small Batch Support",
+    "feature4": "Quality Assurance",
+    "cta1": "Get Free Quote",
+    "cta2": "Our Services"
+  },
+  "equipment": {
+    "title": "Product Showcase",
+    "subtitle": "Various precision parts processing to meet your customization needs",
+    "product1": "Product Title 1",
+    "product2": "Product Title 2",
+    "product3": "Product Title 3",
+    "product4": "Product Title 4",
+    "product5": "Product Title 5",
+    "product6": "Product Title 6"
+  },
+  "capabilities": {
+    "title": "Core Machining Capabilities",
+    "subtitle": "Advanced equipment and exquisite craftsmanship to meet your high-precision processing needs",
+    "items": [
+      { "icon": "📐", "title": "Machining Accuracy", "desc": "Maximum machining accuracy up to ±0.005mm, surface roughness Ra0.8, meeting precision parts processing requirements" },
+      { "icon": "📏", "title": "Machining Range", "desc": "Maximum machining size 1200×800×600mm, capable of processing rotating parts with diameters from 5mm to 500mm" },
+      { "icon": "⚡", "title": "Production Efficiency", "desc": "24-hour continuous production capacity, prototype cycle 3-5 days, mass order on-time delivery rate over 98%" },
+      { "icon": "🔧", "title": "Equipment Quantity", "desc": "20 CNC machining centers, 10 CNC lathes, 5 micro injection molding machines, annual capacity exceeding one million pieces" },
+      { "icon": "📋", "title": "Quality Inspection", "desc": "Equipped with CMM, projectors, roughness testers and other inspection equipment, full-process quality control" },
+      { "icon": "🚚", "title": "Logistics Delivery", "desc": "Support nationwide logistics delivery, freight forwarding available, urgent orders support SF Express to ensure on-time delivery" }
+    ]
+  },
+  "services": {
+    "title": "Machining Services",
+    "subtitle": "One-stop precision machining solutions from design to finished product",
+    "items": [
+      {
+        "icon": "🔩",
+        "title": "CNC Milling",
+        "spec": "Travel: 1200×800×600mm",
+        "list": ["Face milling, contour milling", "Cavity and boss machining", "Drilling, tapping, boring", "Suitable for housings and plate parts"]
+      },
+      {
+        "icon": "🔄",
+        "title": "CNC Turning",
+        "spec": "Turning diameter: 5mm - 500mm",
+        "list": ["Internal and external turning, face turning", "Grooving, parting, threading", "Complex surface turning", "Suitable for shaft and disc parts"]
+      },
+      {
+        "icon": "🎯",
+        "title": "Wire EDM",
+        "spec": "Accuracy: ±0.005mm",
+        "list": ["Fast, medium and slow wire cutting", "Special-shaped holes and complex contours", "Mold parts and template machining", "Suitable for precision mold manufacturing"]
+      },
+      {
+        "icon": "✨",
+        "title": "Precision Grinding",
+        "spec": "Surface roughness: Ra0.1-Ra0.8",
+        "list": ["Internal/external cylindrical grinding, surface grinding", "High-precision surface polishing", "Improve dimensional accuracy and surface quality", "Suitable for high-precision mating surfaces"]
+      },
+      {
+        "icon": "🎨",
+        "title": "Surface Treatment",
+        "spec": "Various surface treatment processes",
+        "list": ["Anodizing, hard anodizing", "Electroplating (chrome, nickel, zinc)", "Sandblasting, brushing, polishing", "Spray painting, baking varnish, blackening"]
+      },
+      {
+        "icon": "📐",
+        "title": "Custom Fabrication",
+        "spec": "Based on drawings and samples, starting from one piece",
+        "list": ["Customized according to drawings or samples", "Assist in optimizing processing technology", "Support small-batch trial production", "Provide technical consulting support"]
+      }
+    ]
+  },
+  "materials": {
+    "title": "Machinable Materials",
+    "subtitle": "Supporting precision machining of various metals and engineering plastics",
+    "items": [
+      { "icon": "🔶", "name": "Aluminum Alloy", "spec": "6061/7075/5052 etc." },
+      { "icon": "⚪", "name": "Stainless Steel", "spec": "304/316/303 etc." },
+      { "icon": "🟤", "name": "Copper Alloy", "spec": "Brass/Red Copper/Beryllium Copper etc." },
+      { "icon": "⚫", "name": "Carbon Steel", "spec": "45#/Q235/A3 etc." },
+      { "icon": "🔷", "name": "Titanium Alloy", "spec": "TC4/TA1 etc." },
+      { "icon": "⬜", "name": "Engineering Plastic", "spec": "POM/PEEK/Nylon etc." },
+      { "icon": "🟨", "name": "Magnesium Alloy", "spec": "AZ31/AZ91 etc." },
+      { "icon": "🔧", "name": "Other Materials", "spec": "Welcome to inquire" }
+    ]
+  },
+  "advantages": {
+    "title": "Why Choose Us",
+    "subtitle": "Focus on precision machining, with dual guarantee of quality and service",
+    "items": [
+      { "icon": "🏭", "title": "Own Factory", "desc": "Sufficient capacity, controllable delivery time, guaranteed quality and quantity" },
+      { "icon": "👨‍🔧", "title": "Rich Experience", "desc": "15 years of industry experience, technical team with average seniority over 8 years, mature and stable processes" },
+      { "icon": "📊", "title": "Quality Assurance", "desc": "ISO9001 quality management system, strict inspection at every process, no unqualified products leave the factory" },
+      { "icon": "💰", "title": "Transparent Pricing", "desc": "Clear pricing, no hidden charges, volume orders enjoy tiered discounts, higher cost performance" },
+      { "icon": "⚡", "title": "Fast Response", "desc": "Provide quotation within 24 hours, urgent orders can be expedited, fastest same-day delivery" },
+      { "icon": "🤝", "title": "Worry-Free After-Sales", "desc": "Free rework for quality issues, technical support provided, long-term cooperative customers get priority scheduling" }
+    ]
+  },
+  "industries": {
+    "title": "Industries Served",
+    "subtitle": "Serving numerous industries with rich experience",
+    "items": [
+      { "icon": "🚗", "title": "Automotive", "desc": "Auto parts, fixtures and jigs" },
+      { "icon": "🤖", "title": "Automation", "desc": "Manipulators, fixtures, parts" },
+      { "icon": "✈️", "title": "Aerospace", "desc": "Precision structural parts, fasteners" },
+      { "icon": "🏥", "title": "Medical Devices", "desc": "Surgical instruments, implants" },
+      { "icon": "📱", "title": "Electronics", "desc": "Heat sinks, housings, connectors" },
+      { "icon": "⚡", "title": "New Energy", "desc": "Battery accessories, charging pile parts" }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Send drawings to get a free quote, one-on-one service from professional engineers",
+    "infoTitle": "Contact Information",
+    "addressLabel": "Factory Address",
+    "address": "Group 5, Yanghuaqiao Village, Chengnan Street, Rugao City, Jiangsu Province\n(Welcome to visit)",
+    "phoneLabel": "Business Phone",
+    "phone": "86-18962702035",
+    "emailLabel": "Email",
+    "email": "guofanghua@jiejingjxzz.com\nSend drawings to this email for quotation",
+    "hoursLabel": "Working Hours",
+    "hours": "Monday to Saturday 8:00 - 20:00\nSunday factory visit by appointment",
+    "form": {
+      "companyLabel": "Company Name",
+      "companyPlaceholder": "Please enter your company name",
+      "nameLabel": "Contact Person",
+      "namePlaceholder": "Please enter contact name",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Please enter phone number",
+      "materialLabel": "Material",
+      "quantityLabel": "Quantity",
+      "messageLabel": "Requirements",
+      "messagePlaceholder": "Please describe your machining needs, note if you have drawings...",
+      "submit": "Submit Request for Quote",
+      "success": "Thank you for your inquiry! Our engineer will contact you within 24 hours and provide a quotation."
+    },
+    "select": {
+      "material": {
+        "placeholder": "Please select material",
+        "aluminum": "Aluminum Alloy",
+        "stainless": "Stainless Steel",
+        "steel": "Carbon/Alloy Steel",
+        "copper": "Copper Alloy",
+        "titanium": "Titanium Alloy",
+        "plastic": "Engineering Plastic",
+        "other": "Other Materials"
+      },
+      "quantity": {
+        "placeholder": "Please select quantity",
+        "prototype": "Prototype / One piece",
+        "small": "Small batch (10-100 pcs)",
+        "medium": "Medium batch (100-1000 pcs)",
+        "large": "Large batch (1000+ pcs)"
+      }
+    }
+  },
+  "footer": {
+    "aboutTitle": "About Us",
+    "aboutText": "Focusing on precision CNC machining for 20 years, with advanced equipment and a professional technical team, providing high-quality parts processing services for various industries.",
+    "linksTitle": "Quick Links",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact Us",
+    "copyright": "© 2026 Jiejing Machinery All Rights Reserved | Professional CNC Machining Services"
+  }
+}
